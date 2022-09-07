@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+    <header id="header">
+        
+        <nav id="navbar">
+            <div id="brand">
+                
+            </div>
+            <ul id="nav-links">
+                <a class="nav-link" href="#features"> <li>Features</li> </a>
+                <a href="#works" class="nav-link"><li>How It Works</li></a>
+                <a href="#series" class="nav-link"><li>Series</li></a>                
+                <a href="#about" class="nav-link"><li>About</li></a>
+                <a href="#pricing" class="nav-link"><li>Pricing</li></a>
+                <a href="#works" class="nav-link"><li>Watch Demo</li></a>
+            </ul>
+            <div id="sign">
+                <button>Log In</button>
+                <button class="sign-up">Get Started</button>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="section">
+            <div class="video-container"></div>
+            <div class="desc">
+              <h1>Where video meets marketing</h1>
+              <h2>Create, host, market, and analyse the impact of video-all with our video marketing platform</h2>
+              <div class="button-container">
+                <button class="sign-up">Sign Up for free</button>
+                <button>See pricing</button>
+              </div>
+            </div>
+        </div>
+        <div class="section">
+          <div class="form">
+            <h1>Request a live demo.</h1>
+            <p>Fill out your details to get a live demo:</p>
+            <form action="">
+              <div class="name">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+              </div>
+              <input type="email" placeholder="Your Email Address">
+              <input type="tel" name="" id="" placeholder="Your phone number">
+              <div class="checkbox">
+                <input name="newsletter" type="checkbox">
+                <label for="newsletter">Check the box if you want to receive our newsletter.</label>
+              </div>
+              <input type="submit" value="Submit">  
+            </form>  
+          </div>
+        </div>
+        <div class="section">
+          <article class="review">
+            <div class="img-container">
+              <img src="./img/person.png" id="person-img">
+            </div>
+            <h4 id="author"></h4>
+            <p id="job"></p>
+            <p id="info"></p>
+            <div class="button-container">
+                <button class="btn prev-btn">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="btn next-btn">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+              <button class="btn random-btn">Random review</button>
+          </article>
+        </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
